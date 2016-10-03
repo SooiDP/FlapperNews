@@ -1,5 +1,5 @@
 var app = angular.module('flapperNews', ['ui.router']);
-
+//test
 app.factory('posts', [function () {
     var o = {
         posts: []
