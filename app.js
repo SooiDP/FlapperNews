@@ -6,7 +6,7 @@ app.factory('posts', [function () {
     };
     return o;
 }]);
-
+//2nd test
 app.controller('MainCtrl', [
     '$scope',
     'posts',
