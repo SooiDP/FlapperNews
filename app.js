@@ -1,13 +1,12 @@
 var app = angular.module('flapperNews', ['ui.router']);
-//test
-//extra test
+
 app.factory('posts', [function () {
     var o = {
         posts: []
     };
     return o;
 }]);
-//2nd test
+
 app.controller('MainCtrl', [
     '$scope',
     'posts',
